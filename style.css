@@ -1,0 +1,168 @@
+body{
+    
+    margin: 0;    
+}
+
+.page{
+    display: flex;
+    gap: 45px;
+    margin: auto;
+    justify-content: center;
+   
+}
+.page .sect{
+
+    margin-top: 50px;
+}
+
+
+.sect{
+    
+    margin-top: 0;
+    width:  1280px;
+    height: 720px;
+    margin-top: 26px;
+    /* margin: 71px auto; */
+    background-color: #2C2B3D;
+   
+
+}
+   
+
+#square1{
+ width: 150px;
+ height: 70px;
+ background-color: #2F2E41;
+
+}
+
+#square2{
+    width: 150px;
+    height: 70px;
+    background-color:  #00BFA6;
+   
+}
+
+#square3{
+    width: 150px;
+    height: 70px;
+    background-color:#C2C2C2;
+   
+}
+
+#square4{
+    width: 150px;
+    height: 70px;
+    background-color: #FFFFFF;
+   
+   }
+
+
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+ul li a:hover{
+
+    font-weight: bold;
+    opacity: 1;
+    cursor: pointer;
+}
+
+ul li{
+    list-style-type: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+ul{
+    display: flex;
+    gap:50px;
+   
+}
+
+main section {
+    text-align: center;
+
+
+}
+
+section p{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 101px 0 auto;
+    padding: 10px;
+    
+
+}
+
+main h1{
+        
+    font-family: 'JetBrains Mono';
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+span{
+    color: #00BFA6;
+}
+
+
+
+footer section p{   
+
+    font-family: 'JetBrains Mono';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    color: #FFF;
+    text-align: center;
+}
+
+    
+footer section .line{
+    
+    width: 568px;
+    height: 1px;
+    background-color:#00BFA6;
+    margin: auto;
+}
+
+
+footer section {
+    margin: 200px auto 25px ;
+  
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+ #padlock{
+     margin-left: 50px;
+     margin-top: 110px;
+    
+}
+
